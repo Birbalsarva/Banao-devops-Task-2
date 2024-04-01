@@ -17,10 +17,10 @@ pipeline {
         }
     }
     
-    post {
-        always {
-            sh 'myenv/bin/deactivate || true'
-        }
-    }
+ #   post {
+  #      always {
+   #         sh 'myenv/bin/deactivate || true'
+    #    }
+    #}
 }
 
