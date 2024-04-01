@@ -17,7 +17,7 @@ pipeline {
         }
     }
     
- #   post {
+ #  post {
   #      always {
    #         sh 'myenv/bin/deactivate || true'
     #    }
